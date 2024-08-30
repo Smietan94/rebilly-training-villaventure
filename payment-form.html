@@ -6,7 +6,18 @@
     <script src="instruments-config.js" type="text/javascript" defer></script>
 </head>
 <body>
+<button id="btn">change to yearly plan</button>
 <div class="rebilly-instruments-summary"></div>
 <div class="rebilly-instruments"></div>
+<div class="rebilly-instruments-custom-confirmation display-none">
+    <label>I agree with <a href="http://google.com">terms and conditions</a><input type="checkbox" id="confirmation-terms" /></label>
+    <span id="confirmation-terms-error">&nbsp;</span>
+    <button id="confirm">Confirm</button>
+</div>
 </body>
+<style type="text/css">
+    .display-none {
+        display: none;
+    }
+</style>
 </HTML>
